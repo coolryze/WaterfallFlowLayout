@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		60CBB85820CE66B300004FD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CBB85720CE66B300004FD3 /* AppDelegate.swift */; };
-		60CBB85A20CE66B400004FD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CBB85920CE66B400004FD3 /* ViewController.swift */; };
-		60CBB85D20CE66B400004FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CBB85B20CE66B400004FD3 /* Main.storyboard */; };
-		60CBB85F20CE66B500004FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60CBB85E20CE66B500004FD3 /* Assets.xcassets */; };
-		60CBB86220CE66B500004FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CBB86020CE66B500004FD3 /* LaunchScreen.storyboard */; };
+		608D24AF20CE693F00B30253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608D24AE20CE693F00B30253 /* AppDelegate.swift */; };
+		608D24B120CE693F00B30253 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608D24B020CE693F00B30253 /* ViewController.swift */; };
+		608D24B420CE693F00B30253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608D24B220CE693F00B30253 /* Main.storyboard */; };
+		608D24B620CE693F00B30253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 608D24B520CE693F00B30253 /* Assets.xcassets */; };
+		608D24B920CE693F00B30253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608D24B720CE693F00B30253 /* LaunchScreen.storyboard */; };
+		608D24C420CE6A4C00B30253 /* WaterfallFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608D24C320CE6A4C00B30253 /* WaterfallFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		60CBB85420CE66B300004FD3 /* WaterfallFlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterfallFlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		60CBB85720CE66B300004FD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		60CBB85920CE66B400004FD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		60CBB85C20CE66B400004FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		60CBB85E20CE66B500004FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		60CBB86120CE66B500004FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		60CBB86320CE66B500004FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		608D24AB20CE693F00B30253 /* WaterfallFlowLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterfallFlowLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		608D24AE20CE693F00B30253 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		608D24B020CE693F00B30253 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		608D24B320CE693F00B30253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		608D24B520CE693F00B30253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		608D24B820CE693F00B30253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		608D24BA20CE693F00B30253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		608D24C320CE6A4C00B30253 /* WaterfallFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterfallFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		60CBB85120CE66B300004FD3 /* Frameworks */ = {
+		608D24A820CE693F00B30253 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +37,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		60CBB84B20CE66B300004FD3 = {
+		608D24A220CE693F00B30253 = {
 			isa = PBXGroup;
 			children = (
-				60CBB85620CE66B300004FD3 /* WaterfallFlowLayout */,
-				60CBB85520CE66B300004FD3 /* Products */,
+				608D24AD20CE693F00B30253 /* WaterfallFlowLayoutDemo */,
+				608D24AC20CE693F00B30253 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		60CBB85520CE66B300004FD3 /* Products */ = {
+		608D24AC20CE693F00B30253 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60CBB85420CE66B300004FD3 /* WaterfallFlowLayout.app */,
+				608D24AB20CE693F00B30253 /* WaterfallFlowLayoutDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		60CBB85620CE66B300004FD3 /* WaterfallFlowLayout */ = {
+		608D24AD20CE693F00B30253 /* WaterfallFlowLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
-				60CBB85720CE66B300004FD3 /* AppDelegate.swift */,
-				60CBB85920CE66B400004FD3 /* ViewController.swift */,
-				60CBB85B20CE66B400004FD3 /* Main.storyboard */,
-				60CBB85E20CE66B500004FD3 /* Assets.xcassets */,
-				60CBB86020CE66B500004FD3 /* LaunchScreen.storyboard */,
-				60CBB86320CE66B500004FD3 /* Info.plist */,
+				608D24C220CE6A4C00B30253 /* WaterfallFlowLayout */,
+				608D24AE20CE693F00B30253 /* AppDelegate.swift */,
+				608D24B020CE693F00B30253 /* ViewController.swift */,
+				608D24B220CE693F00B30253 /* Main.storyboard */,
+				608D24B520CE693F00B30253 /* Assets.xcassets */,
+				608D24B720CE693F00B30253 /* LaunchScreen.storyboard */,
+				608D24BA20CE693F00B30253 /* Info.plist */,
 			);
-			path = WaterfallFlowLayout;
+			path = WaterfallFlowLayoutDemo;
+			sourceTree = "<group>";
+		};
+		608D24C220CE6A4C00B30253 /* WaterfallFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				608D24C320CE6A4C00B30253 /* WaterfallFlowLayout.swift */,
+			);
+			name = WaterfallFlowLayout;
+			path = ../../WaterfallFlowLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		60CBB85320CE66B300004FD3 /* WaterfallFlowLayout */ = {
+		608D24AA20CE693F00B30253 /* WaterfallFlowLayoutDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60CBB86620CE66B500004FD3 /* Build configuration list for PBXNativeTarget "WaterfallFlowLayout" */;
+			buildConfigurationList = 608D24BD20CE693F00B30253 /* Build configuration list for PBXNativeTarget "WaterfallFlowLayoutDemo" */;
 			buildPhases = (
-				60CBB85020CE66B300004FD3 /* Sources */,
-				60CBB85120CE66B300004FD3 /* Frameworks */,
-				60CBB85220CE66B300004FD3 /* Resources */,
+				608D24A720CE693F00B30253 /* Sources */,
+				608D24A820CE693F00B30253 /* Frameworks */,
+				608D24A920CE693F00B30253 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WaterfallFlowLayout;
-			productName = WaterfallFlowLayout;
-			productReference = 60CBB85420CE66B300004FD3 /* WaterfallFlowLayout.app */;
+			name = WaterfallFlowLayoutDemo;
+			productName = WaterfallFlowLayoutDemo;
+			productReference = 608D24AB20CE693F00B30253 /* WaterfallFlowLayoutDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		60CBB84C20CE66B300004FD3 /* Project object */ = {
+		608D24A320CE693F00B30253 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = heyuze;
 				TargetAttributes = {
-					60CBB85320CE66B300004FD3 = {
+					608D24AA20CE693F00B30253 = {
 						CreatedOnToolsVersion = 9.4;
 					};
 				};
 			};
-			buildConfigurationList = 60CBB84F20CE66B300004FD3 /* Build configuration list for PBXProject "WaterfallFlowLayout" */;
+			buildConfigurationList = 608D24A620CE693F00B30253 /* Build configuration list for PBXProject "WaterfallFlowLayoutDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +119,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 60CBB84B20CE66B300004FD3;
-			productRefGroup = 60CBB85520CE66B300004FD3 /* Products */;
+			mainGroup = 608D24A220CE693F00B30253;
+			productRefGroup = 608D24AC20CE693F00B30253 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				60CBB85320CE66B300004FD3 /* WaterfallFlowLayout */,
+				608D24AA20CE693F00B30253 /* WaterfallFlowLayoutDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		60CBB85220CE66B300004FD3 /* Resources */ = {
+		608D24A920CE693F00B30253 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60CBB86220CE66B500004FD3 /* LaunchScreen.storyboard in Resources */,
-				60CBB85F20CE66B500004FD3 /* Assets.xcassets in Resources */,
-				60CBB85D20CE66B400004FD3 /* Main.storyboard in Resources */,
+				608D24B920CE693F00B30253 /* LaunchScreen.storyboard in Resources */,
+				608D24B620CE693F00B30253 /* Assets.xcassets in Resources */,
+				608D24B420CE693F00B30253 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		60CBB85020CE66B300004FD3 /* Sources */ = {
+		608D24A720CE693F00B30253 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60CBB85A20CE66B400004FD3 /* ViewController.swift in Sources */,
-				60CBB85820CE66B300004FD3 /* AppDelegate.swift in Sources */,
+				608D24B120CE693F00B30253 /* ViewController.swift in Sources */,
+				608D24AF20CE693F00B30253 /* AppDelegate.swift in Sources */,
+				608D24C420CE6A4C00B30253 /* WaterfallFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		60CBB85B20CE66B400004FD3 /* Main.storyboard */ = {
+		608D24B220CE693F00B30253 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				60CBB85C20CE66B400004FD3 /* Base */,
+				608D24B320CE693F00B30253 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		60CBB86020CE66B500004FD3 /* LaunchScreen.storyboard */ = {
+		608D24B720CE693F00B30253 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				60CBB86120CE66B500004FD3 /* Base */,
+				608D24B820CE693F00B30253 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +175,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		60CBB86420CE66B500004FD3 /* Debug */ = {
+		608D24BB20CE693F00B30253 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,7 +235,7 @@
 			};
 			name = Debug;
 		};
-		60CBB86520CE66B500004FD3 /* Release */ = {
+		608D24BC20CE693F00B30253 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -276,36 +289,36 @@
 			};
 			name = Release;
 		};
-		60CBB86720CE66B500004FD3 /* Debug */ = {
+		608D24BE20CE693F00B30253 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45N99663PA;
-				INFOPLIST_FILE = WaterfallFlowLayout/Info.plist;
+				INFOPLIST_FILE = WaterfallFlowLayoutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.heyuze.WaterfallFlowLayout;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heyuze.WaterfallFlowLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		60CBB86820CE66B500004FD3 /* Release */ = {
+		608D24BF20CE693F00B30253 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45N99663PA;
-				INFOPLIST_FILE = WaterfallFlowLayout/Info.plist;
+				INFOPLIST_FILE = WaterfallFlowLayoutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.heyuze.WaterfallFlowLayout;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heyuze.WaterfallFlowLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,25 +328,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		60CBB84F20CE66B300004FD3 /* Build configuration list for PBXProject "WaterfallFlowLayout" */ = {
+		608D24A620CE693F00B30253 /* Build configuration list for PBXProject "WaterfallFlowLayoutDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				60CBB86420CE66B500004FD3 /* Debug */,
-				60CBB86520CE66B500004FD3 /* Release */,
+				608D24BB20CE693F00B30253 /* Debug */,
+				608D24BC20CE693F00B30253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60CBB86620CE66B500004FD3 /* Build configuration list for PBXNativeTarget "WaterfallFlowLayout" */ = {
+		608D24BD20CE693F00B30253 /* Build configuration list for PBXNativeTarget "WaterfallFlowLayoutDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				60CBB86720CE66B500004FD3 /* Debug */,
-				60CBB86820CE66B500004FD3 /* Release */,
+				608D24BE20CE693F00B30253 /* Debug */,
+				608D24BF20CE693F00B30253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 60CBB84C20CE66B300004FD3 /* Project object */;
+	rootObject = 608D24A320CE693F00B30253 /* Project object */;
 }

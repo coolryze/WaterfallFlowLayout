@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  WaterfallFlowLayout
+//  WaterfallFlowLayoutDemo
 //
 //  Created by heyuze on 2018/6/11.
 //  Copyright © 2018 heyuze. All rights reserved.
