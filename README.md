@@ -11,6 +11,23 @@ This library requires `iOS 7.0+`, `Swift 4` and `Xcode 9.0+`.
 
 ## Usage
 
+1. Init WaterfallFlowLayout && set delegate.
+
+```swift
+let waterfallFlowLayout = WaterfallFlowLayout()
+waterfallFlowLayout.delegate = self
+let collectionView = UICollectionView(frame: view.frame, collectionViewLayout: waterfallFlowLayout)
+```
+
+2. Implements WaterfallFlowLayoutDelegate.
+
+```swift
+func waterfallFlowLayout(_ layout: WaterfallFlowLayout, heightForItemAtIndexPath indexPath: IndexPath, itemWidth: CGFloat) -> CGFloat
+func columnCountInWaterfallFlowLayout(_ layout: WaterfallFlowLayout) -> Int
+func columnSpacingInWaterfallFlowLayout(_ layout: WaterfallFlowLayout) -> CGFloat
+func rowSpacingInWaterfallFlowLayout(_ layout: WaterfallFlowLayout) -> CGFloat
+func edgeInsetsInWaterfallFlowLayout(_ layout: WaterfallFlowLayout) -> UIEdgeInsets
+```
 
 ## Installation
 Add the source file 'WaterfallFlowLayout' to your Xcode project.
